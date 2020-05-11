@@ -1,0 +1,33 @@
+{
+  "name": "tenda-routers",
+  "version": "1.0.0",
+  "description": "This package can be used to communicate with tenda router using nodejs at your will. It can be useful to change your IP Address (if your ISP allots dynamic IP Address to you), etc.",
+  "main": "tenda-router.js",
+  "keywords": [
+    "router",
+    "control",
+    "communicate",
+    "reboot",
+    "tenda",
+    "change",
+    "dynamic",
+    "ip"
+  ],
+  "author": "Prashant Varshney",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pv03158/tenda-routers.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pv03158/tenda-routers/issues"
+  },
+  "homepage": "https://github.com/pv03158/tenda-routers#readme",
+  "dependencies": {
+    "puppeteer": "^3.0.4",
+    "request": "^2.88.2"
+  }
+}
