@@ -15,6 +15,9 @@ async function reboot() {
     */
    initialise();
     try {
+        if( admHost == null || password == null )
+            throw "ADMIN_HOST_OR_PASSWORD_NULL_EXCEPTION";
+            
         const loginPage = await (await browser).newPage();
         await loginPage.goto(admHost);      // FETCHING ADMIN-LOGIN-PAGE
         await loginPage.type("#login-password", password);      // ENTERING ADMIN-PASSWORD
