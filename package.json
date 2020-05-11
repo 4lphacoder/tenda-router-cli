@@ -1,6 +1,6 @@
 {
-  "name": "tenda-routers",
-  "version": "1.0.0",
+  "name": "tenda-router",
+  "version": "1.0.2",
   "description": "This package can be used to communicate with tenda router using nodejs at your will. It can be useful to change your IP Address (if your ISP allots dynamic IP Address to you), etc.",
   "main": "tenda-router.js",
   "keywords": [

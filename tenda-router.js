@@ -54,7 +54,7 @@ async function reboot() {
 function initialise() {
     // THIS FUNCTION CREATES HEADLESS BROWSER INSTANCE
     browser = puppeteer.launch({
-        headless: false,
+        headless: true,
         defaultViewport: null,
         args: ["--start-maximized"]
     });
