@@ -17,7 +17,7 @@ async function reboot() {
     try {
         if( admHost == null || password == null )
             throw "ADMIN_HOST_OR_PASSWORD_NULL_EXCEPTION";
-            
+
         const loginPage = await (await browser).newPage();
         await loginPage.goto(admHost);      // FETCHING ADMIN-LOGIN-PAGE
         await loginPage.type("#login-password", password);      // ENTERING ADMIN-PASSWORD
@@ -76,5 +76,7 @@ function logout() {
     password = null;
 }
 
-module.exports = { login, reboot, logout };
+module.exports.login = login;
+module.exports.reboot = reboot;
+module.exports.logout = logout;
 
