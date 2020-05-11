@@ -27,7 +27,6 @@
   },
   "homepage": "https://github.com/pv03158/tenda-routers#readme",
   "dependencies": {
-    "puppeteer": "^3.0.4",
-    "request": "^2.88.2"
+    "puppeteer": "^3.0.4"
   }
 }
